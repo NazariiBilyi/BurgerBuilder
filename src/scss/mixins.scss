@@ -1,0 +1,43 @@
+@mixin content {
+  margin-top: 16px;
+}
+
+@mixin burger {
+  width: 100%;
+  margin: auto;
+  height: 250px;
+  overflow: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@mixin build-controls {
+  width: 100%;
+  background-color: #CF8F2E;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+@mixin build-control {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+@mixin  build-control-button {
+  display: block;
+  font: inherit;
+  padding: 5px;
+  margin: 0 5px;
+  width: 80px;
+  border: 1px solid #AA6817;
+  cursor: pointer;
+  outline: none;
+}

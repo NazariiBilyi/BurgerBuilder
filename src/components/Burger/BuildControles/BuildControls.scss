@@ -1,0 +1,5 @@
+@import '../../../scss/mixins';
+
+.build-controls {
+  @include build-controls;
+}
