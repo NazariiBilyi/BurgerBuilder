@@ -95,7 +95,6 @@ class BurgerBuilder extends Component {
         for (let key in disableInfo) {
             disableInfo[key] = disableInfo[key] <= 0;
         }
-        console.log(disableInfo);
         return (
             <Aux>
                 <Modal
